@@ -33,7 +33,7 @@ export class LoginComponent {
           this.router.navigate(["/"]);
         },
         error: (err: HttpErrorResponse) => this.invalidLogin = true
-      })
+      });
     }
   }
 
